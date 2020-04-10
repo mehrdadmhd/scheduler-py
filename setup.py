@@ -19,5 +19,6 @@ setup(
     url='https://github.com/mehrdadmhd/scheduler-py',
     author='Mehrdad Mahmoudi',
     author_email='mehrdad@asiatech.ir',
-    keywords=['pip','schedule','python','python3','job','cron']
+    keywords=['pip','schedule','python','python3','job','cron'],
+    install_requires=['croniter']
 )
