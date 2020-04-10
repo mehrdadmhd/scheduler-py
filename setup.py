@@ -11,7 +11,7 @@ def read_file(filename):
 
 
 setup(
-    name='scheduler',
+    name='scheduler-cron',
     packages=['scheduler'],
     description='Python task scheduling with cron expression',
     long_description=read_file('README.rst'),
@@ -19,6 +19,6 @@ setup(
     url='https://github.com/mehrdadmhd/scheduler-py',
     author='Mehrdad Mahmoudi',
     author_email='mehrdad@asiatech.ir',
-    keywords=['pip','schedule','python','python3','job','cron'],
+    keywords=['pip','schedule','scheduler','python','python3','job','cron'],
     install_requires=['croniter']
 )

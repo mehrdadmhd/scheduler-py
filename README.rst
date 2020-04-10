@@ -1,16 +1,16 @@
 scheduler
-========
+=========
 
 A simple job scheduler with cron expression
 
-Inspired by `"schedule" <https://github.com/dbader/schedule>`_ .
+Inspired by "`schedule <https://github.com/dbader/schedule>`_".
 
 Usage
 -----
 
 .. code-block:: bash
 
-    $ pip3 install git+https://git.asiatech.ir/dev/scheduler-py.git --upgrade
+    $ pip3 install scheduler-cron
 
 .. code-block:: python
 
