@@ -25,12 +25,12 @@ Usage
     def test_3(name, lname):
         print('test3: ' + name + ' ' + lname)
 
-    scheduler = Scheduler(60)
-    scheduler.add('foo', '* * * * *', test_1)
-    scheduler.add('bar', '0/2 * * * *', test_2, ('mehrdad',))
-    scheduler.add('bas', '0/3 * * * *', test_3, ('behzad', 'mahmoudi'))
-    scheduler.add('zoo', '0/4 * * * *', test_3, ('reza', 'mahmoudi'))
-    scheduler.start()
+    app = scheduler.Scheduler(60)
+    app.add('foo', '* * * * *', test_1)
+    app.add('bar', '0/2 * * * *', test_2, ('mehrdad',))
+    app.add('bas', '0/3 * * * *', test_3, ('behzad', 'mahmoudi'))
+    app.add('zoo', '0/4 * * * *', test_3, ('reza', 'mahmoudi'))
+    app.start()
 
 
 ToDo
